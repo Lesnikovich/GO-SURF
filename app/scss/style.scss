@@ -183,6 +183,7 @@
   right: 0;
   top: 0;
   z-index: 3;
+  max-width: 1000px;
 }
 
 .header__arrows{
@@ -192,11 +193,30 @@
   z-index: 3;
 }
 
-.line-animation{
+.line-animation-1{
+  stroke-dashoffset: 700;
+  stroke-dasharray: 700;
+  animation: animdash 5s infinite 6s;
+}
+
+.line-animation-2{
   stroke-dashoffset: 600;
   stroke-dasharray: 600;
   animation: animdash 5s infinite 6s;
 }
+
+.line-animation-3{
+  stroke-dashoffset: 700;
+  stroke-dasharray: 700;
+  animation: animdash 5s infinite 6s;
+}
+
+.line-animation-4{
+  stroke-dashoffset: 800;
+  stroke-dasharray: 800;
+  animation: animdash 5s infinite 6s;
+}
+
 
 @keyframes animdash{
   to{
